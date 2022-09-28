@@ -19,7 +19,22 @@ img{
 
 /* #region utilities */
 
+.btn_warning{
+    background-color: var(--ps-warning);
+    color: var(--ps-lighter);
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 20px;
+}
 
+.btn_dark{
+    background-color: var(--ps-darklight);
+    color: var(--ps-lighter);
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 20px;
+    
+}
 
 
 
@@ -53,11 +68,22 @@ header .header_top .logo{
     width: 70px;
 }
 
-header .header_bottom .btn_dark{
-    background-color: var(--ps-darklight);
-    color: var(--ps-lighter);
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    border-radius: 20px;
-    
+
+/* #endregion header */
+
+/* #region main */
+
+
+
+main .jumbotron {
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(/assets/img/jumbo-bg.png);
 }
+
+main .jumbotron .jumbo_description{
+    max-width: 700px;
+}
+
+
