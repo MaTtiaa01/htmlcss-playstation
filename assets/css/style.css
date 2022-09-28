@@ -1,0 +1,50 @@
+:root{
+    --ps-dark: #000000;
+    --ps-secondary: #00439C;
+    --ps-secondarylight: #2D64E6;
+    --ps-darklight: #363636;
+    --ps-grey: #BEBCBB;
+    --ps-warning: #CD3D0F;
+    --ps-lighter: #FFFFFF;
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* #region utilities */
+
+
+
+
+
+
+
+/* #region debug */
+
+.debug header .header_top{
+    height: 40px;
+}
+
+.debug header .header_bottom{
+    height: 60px;
+}
+
+.debug [class^="col"]{
+    background-color: red;
+    
+    height: 100px;
+    border: 1px solid ;
+}
+
+
+/* #region header */
+
+header .header_top{
+    background-color: var(--ps-dark);
+}
