@@ -48,3 +48,7 @@ img{
 header .header_top{
     background-color: var(--ps-dark);
 }
+
+header .header_top .logo{
+    width: 70px;
+}
