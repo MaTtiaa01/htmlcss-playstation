@@ -6,6 +6,8 @@
     --ps-grey: #BEBCBB;
     --ps-warning: #CD3D0F;
     --ps-lighter: #FFFFFF;
+    --ps-grey: #7A7A7A;
+
 
 }
 
@@ -15,6 +17,10 @@ body{
 
 img{
     max-width: 100%;
+}
+
+a{
+    text-decoration: none;
 }
 
 /* #region utilities */
@@ -34,6 +40,18 @@ img{
     text-decoration: none;
     border-radius: 20px;
     
+}
+
+.btn_secondarylight{
+    background-color: var(--ps-secondarylight);
+    color: var(--ps-lighter);
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.ps_grey{
+    color: var(--ps-grey);
 }
 
 
