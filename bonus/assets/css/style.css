@@ -1,0 +1,180 @@
+:root{
+    --ps-dark: #000000;
+    --ps-secondary: #00439C;
+    --ps-secondarylight: #2D64E6;
+    --ps-darklight: #363636;
+    --ps-play-plus: #BEBCBB;
+    --ps-warning: #CD3D0F;
+    --ps-lighter: #FFFFFF;
+    --ps-grey: #7A7A7A;
+    --ps-btn-plus: #D6D7D8;
+    --ps-bluedark: #161C3B;
+
+
+
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* #region utilities */
+
+.btn_warning{
+    background-color: var(--ps-warning);
+    color: var(--ps-lighter);
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.btn_dark{
+    background-color: var(--ps-darklight);
+    color: var(--ps-lighter);
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 20px;
+    
+}
+
+.btn_secondarylight{
+    background-color: var(--ps-secondarylight);
+    color: var(--ps-lighter);
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.btn_grey{
+    background-color: var(--ps-btn-plus);
+    
+    padding:  0.5rem 0;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.btn_plus{
+    width: 200px;
+}
+.ps_grey{
+    color: var(--ps-grey);
+}
+.fs_15{
+    font-size: 15px;
+}
+
+.fs_8{
+    font-size: 8px;
+}
+
+.fs_12{
+    font-size: 12px;
+}
+
+/* #region debug */
+
+.debug header .header_top{
+    height: 40px;
+}
+
+.debug header .header_bottom{
+    height: 60px;
+}
+
+.debug [class^="col"]{
+    background-color: red;
+    
+    height: 100px;
+    border: 1px solid ;
+}
+
+
+/* #region header */
+
+
+header .header_top{
+    background-color: var(--ps-dark);
+}
+
+header .header_top .logo{
+    width: 70px;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+
+
+/* #endregion header */
+
+/* #region main */
+
+main{
+    margin-top: 108px;
+}
+
+main .jumbotron {
+    
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(/assets/img/jumbo-bg.png);
+}
+
+main .jumbotron .jumbo_description{
+    max-width: 700px;
+}
+
+
+main .takes_two{
+    height: 525px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(/assets/img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+main .new_release{
+    background-color: var(--ps-darklight);
+}
+
+main .ps4{
+    max-width: 1200px;
+    margin: auto;
+}
+
+main .ps_plus{
+    background-color: var(--ps-play-plus);
+}
+
+
+
+main .ps_now{
+    background-color: var(--ps-bluedark);
+}
+
+
+/* #region footer */
+
+footer{
+    background-color: var(--ps-secondary);
+}
+
+footer .footer_page{
+    max-width: 1200px;
+}
+
+#footer_info{
+    text-decoration: underline;
+}
