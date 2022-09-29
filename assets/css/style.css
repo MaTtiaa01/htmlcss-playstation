@@ -3,7 +3,7 @@
     --ps-secondary: #00439C;
     --ps-secondarylight: #2D64E6;
     --ps-darklight: #363636;
-    --ps-grey: #BEBCBB;
+    --ps-play-plus: #BEBCBB;
     --ps-warning: #CD3D0F;
     --ps-lighter: #FFFFFF;
     --ps-grey: #7A7A7A;
@@ -119,4 +119,8 @@ main .new_release{
 main .ps4{
     max-width: 1200px;
     margin: auto;
+}
+
+main .ps_plus{
+    background-color: var(--ps-play-plus);
 }
