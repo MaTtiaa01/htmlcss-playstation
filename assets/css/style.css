@@ -112,3 +112,7 @@ main .takes_two{
     background-image: url(/assets/img/it-takes-two-hero-banner-desktop.jpg);
 }
 
+main .new_release{
+    background-color: var(--ps-darklight);
+}
+
