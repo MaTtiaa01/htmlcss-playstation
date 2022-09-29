@@ -153,8 +153,8 @@ footer{
     background-color: var(--ps-secondary);
 }
 
-.logo_footer{
-    color: var(--ps-lighter);
+footer .footer_page{
+    max-width: 1200px;
 }
 
 #footer_info{
