@@ -105,3 +105,10 @@ main .jumbotron .jumbo_description{
 }
 
 
+main .takes_two{
+    height: 525px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(/assets/img/it-takes-two-hero-banner-desktop.jpg);
+}
+
