@@ -7,6 +7,8 @@
     --ps-warning: #CD3D0F;
     --ps-lighter: #FFFFFF;
     --ps-grey: #7A7A7A;
+    --ps-btn-plus: #D6D7D8;
+
 
 
 }
@@ -50,11 +52,20 @@ a{
     border-radius: 20px;
 }
 
+.btn_grey{
+    background-color: var(--ps-btn-plus);
+    
+    padding:  0.5rem 0;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
 .ps_grey{
     color: var(--ps-grey);
 }
-
-
+.fs_15{
+    font-size: 15px;
+}
 
 
 
@@ -123,4 +134,8 @@ main .ps4{
 
 main .ps_plus{
     background-color: var(--ps-play-plus);
+}
+
+#btn_plus{
+    width: 200px;
 }
