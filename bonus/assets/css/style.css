@@ -157,7 +157,6 @@ main .jumbotron {
 
 
 
-
 main .takes_two{
     height: 570px;
     background-position: center;
@@ -184,6 +183,21 @@ main .ps_now{
     background-color: var(--ps-bluedark);
 }
 
+/* start hover */
+.up{
+    transition-timing-function: ease-in-out;
+    transition: 0.4s;
+}
+main .jumbo_card .row .col:hover{
+   
+    
+    margin-top: 0.5rem;
+    
+    
+}
+
+
+
 main .ps5 .item_not_selected{
     opacity: 0.5;
 }
@@ -193,6 +207,9 @@ main .ps5 .item_not_selected:hover{
     border-bottom: 3px solid var(--ps-secondarylight);
 
 }
+
+
+
 
 /* #region footer */
 
