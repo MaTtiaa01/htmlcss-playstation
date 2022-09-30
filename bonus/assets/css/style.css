@@ -64,6 +64,8 @@ a{
 .btn_plus{
     width: 200px;
 }
+
+
 .ps_grey{
     color: var(--ps-grey);
 }
@@ -162,6 +164,15 @@ main .ps_now{
     background-color: var(--ps-bluedark);
 }
 
+main .ps5 .item_not_selected{
+    opacity: 0.5;
+}
+main .ps5 .item_not_selected:hover{
+
+    opacity: 1;
+    border-bottom: 3px solid var(--ps-secondarylight);
+
+}
 
 /* #region footer */
 
