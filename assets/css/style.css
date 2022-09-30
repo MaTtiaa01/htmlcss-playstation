@@ -130,19 +130,17 @@ main .jumbotron {
     height: 500px;
     background-position: center;
     background-size: cover;
-    background-image: url(/assets/img/jumbo-bg.png);
+    background-image: url(../img/jumbo-bg.png);
 }
 
-main .jumbotron .jumbo_description{
-    max-width: 700px;
-}
+
 
 
 main .takes_two{
-    height: 525px;
+    height: 570px;
     background-position: center;
     background-size: cover;
-    background-image: url(/assets/img/it-takes-two-hero-banner-desktop.jpg);
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 
 main .new_release{
