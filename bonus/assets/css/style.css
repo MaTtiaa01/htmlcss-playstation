@@ -202,6 +202,7 @@ main .jumbo_card .row .col:hover{
 
 main .ps5 .item_not_selected{
     opacity: 0.5;
+    border-bottom: 3px solid transparent;
 }
 main .ps5 .item_not_selected:hover{
 
