@@ -66,6 +66,7 @@ a{
 }
 
 
+
 .ps_grey{
     color: var(--ps-grey);
 }
@@ -136,6 +137,7 @@ header .dropdown-toggle.show::after {
 }
 
 
+
     
 
 
@@ -158,7 +160,7 @@ main .jumbotron {
 
 
 main .takes_two{
-    height: 570px;
+    
     background-position: center;
     background-size: cover;
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
